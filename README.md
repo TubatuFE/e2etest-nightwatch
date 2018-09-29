@@ -6,3 +6,10 @@
 npm install -g nightwatch
 nightwatch --group ViewReport
 ```
+
+or
+
+```
+npm install
+npm test
+```
