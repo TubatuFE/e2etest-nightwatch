@@ -1,13 +1,13 @@
 module.exports = {
-  url: 'http://localhost/Business/ViewReport/pid/3888',
+  url: 'http://localhost/Business/ViewReport/pid/4022', // 3888
   elements: {
     datePicker: {
       selector: 'input[type=text]#datepicker' 
     },
-    selectInput: {
+    filterSelect: {
       selector: '.bootstrap-select select#sel_1'
     },
-    selectOptions: {
+    filterSelectOptions: {
       selector: '.bootstrap-select select option'
     },
     submit: {
