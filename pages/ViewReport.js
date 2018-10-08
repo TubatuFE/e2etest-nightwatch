@@ -10,6 +10,9 @@ module.exports = {
     filterSelectOptions: {
       selector: '.bootstrap-select select option'
     },
+    dropdownMenu: {
+      selector: '.dropdown-menu'
+    },
     submit: {
       selector: 'input[type=submit]'
     },

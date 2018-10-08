@@ -18,7 +18,7 @@ module.exports = {
     ViewReport.setValue('@datePicker', '2010-09-01 ~ 2018-09-30');
     ViewReport.expect.element('@submit').to.be.visible;
     ViewReport.click('@submit');
-    ViewReport.expect.element('@filterSelect').to.be.present.before(10000);
+    ViewReport.expect.element('@filterSelect').to.be.present.before(30000);
 
     browser.end();
   }

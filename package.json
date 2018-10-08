@@ -12,7 +12,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "nightwatch --group ViewReport --reporter ./html-reporter.js"
+    "test": "npm run test:view",
+    "test:view": "nightwatch --group ViewReport --reporter ./html-reporter.js",
+    "test:make": "nightwatch --group MakeReport --reporter ./html-reporter.js",
+    "test:edit": "nightwatch --group EditReport --reporter ./html-reporter.js"
   },
   "keywords": [],
   "author": "",
